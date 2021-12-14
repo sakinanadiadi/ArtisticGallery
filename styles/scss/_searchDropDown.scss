@@ -1,0 +1,27 @@
+.searchDropDown {
+  display: flex;
+  justify-content: center;
+}
+
+.searchDropDown form {
+  margin: 0;
+  font-size: $primarySize;
+}
+
+.searchDropDown label {
+  font-size: 25px;
+}
+
+#search {
+  margin: 0 20px;
+  padding: 5px 50px 5px 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.searchDropDown input {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artistic Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper headerCointainer">
+        <h1>Gallery</h1>
+        <!-- <button class="togglingButton">light Mode</button> -->
+        <form action="#">
+          <label for="switch" class="togglingButton">
+            <input type="checkbox" id="switch" />
+            <span class="slider"></span>
+          </label>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="wrapper searchDropDown">
+          <form action="#">
+            <label for="search">Search</label>
+            <select id="search" name="search">
+              <option value="select">Select from the menu</option>
+              <option value="saab">Challenge</option>
+              <option value="fiat">Lab</option>
+              <option value="audi">Project</option>
+            </select>
+
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
